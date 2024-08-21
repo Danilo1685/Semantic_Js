@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROXIMAMENTE</title>
+    <link rel="stylesheet" href="css/styles_center.css">
+    
+    <link rel="stylesheet" href="css/styles_grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="contenedora_total"> <!--Contenedora general-->
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <header class="contenedor">
+            <div class="image">
+                <img src="images/logo-Sinfondo.png">
+            </div>
+            <h1>Game Up</h1>
+            <!-- Menú lateral -->
+            <nav id="mySidebar">
+                <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+                <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+                <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+                <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+                <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+                <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+                <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+                <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+                <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+                <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+            </nav>
+        </header>
+        <div class="ui grid">
+            <div class="four column row">
+              <section id="trading">
+    <!--             <H1>Shooter</H1>
+                  <div class="container">
+                      <div class="swiper trading-slider">
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide trading-slide item-carousel">
+                                  <div class="trading-slide-img">
+                                      <img src="images/batlefield4.png">
+
+                                  </div>
+                                  <button class="ui inverted red button"id="batlefield4">Ver</button>
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+                                  <div class="trading-slide-img">
+                                      <img src="images/doom.png">
+                                  </div>
+                                  <button class="ui inverted red button" id="doom">Ver</button>
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+                                  <div class="trading-slide-img">
+                                      <img src="images/rainbowsix.png">
+                                  </div>
+                                  <button class="ui inverted red button"id="rainbowsix">Ver</button>
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+                                  <div class="trading-slide-img">
+                                      <img src="images/fortnite.png">
+                                  </div>
+                                  <button class="ui inverted red button"id="fortnite">Ver</button>
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+                                  <div class="trading-slide-img">
+                                      <img src="images/counter.png">
+                                  </div>
+                                  <button class="ui inverted red button"id="counter">Ver</button>
+                              </div>
+                              
+                              
+                          </div>
+                      </div>
+                  </div>
+              </section> -->
+              
+                <div class="five wide column"></div>
+              </div>
+           
+              <div class="left floated column"></div>
+
+            <section id="trading">
+             <!--  <H1>Terror</H1>
+              <div class="container">
+                  <div class="swiper trading-slider">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/amnesia.png">
+                              </div>
+                              <button class="ui inverted red button"id="amnesia">Ver</button>
+                          </div>
+                          
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/slenderman.png">
+                              </div>
+                              <button class="ui inverted red button"id="slenderman">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/leftfourdead.png">
+                              </div>
+                              <button class="ui inverted red button"id="leftfourdead">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/outlast.png">
+                              </div>
+                              <button class="ui inverted red button"id="outlast">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/deadspace.png">
+                              </div>
+                              <button class="ui inverted red button"id="deadspace">Ver</button>
+                          </div>
+                          
+                          
+                      </div>
+                  </div>
+              </div>
+          </section> -->
+              <div class="right floated column"></div>
+            </div>
+            <div class="row">
+              <div class="three wide column"></div>
+
+              <div class="border-container">
+                <!-- Inicio y final de la linea-->
+                <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <!-- Logica de cambio de la forma-->
+                    <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="linea_proximamente" />
+                </svg>
+              </div>
+              <br>
+              <div id = "titulo_juegos_ofertas">
+                <H1>proximamente TOP CLASICOS🔥</H1>
+              </div>
+            
+              <div class="container">
+                  <div class="swiper trading-slider">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/tron.png">
+                              </div>
+                              <button class="ui inverted red button"id="tron">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/supermariobros.png">
+                              </div>
+                              <button class="ui inverted red button"id="supermariobros">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/budokai.png">
+                              </div>
+                              <button class="ui inverted red button" id="budokai">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/battle_city.png">
+                              </div>
+                              <button class="ui inverted red button" id="battle_city">Ver</button>
+                          </div>
+                          <div class="swiper-slide trading-slide item-carousel">
+                              <div class="trading-slide-img">
+                                  <img src="images/mortal_kombat.png">
+                              </div>
+                              <button class="ui inverted red button"id="mortal_kombat">Ver</button>
+                          </div>
+                         
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <br>
+          <br>
+              <div class="eight wide column"></div>
+              <div class="border-container">
+                <!-- Inicio y final de la linea-->
+                <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <!-- Logica de cambio de la forma-->
+                    <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="linea_proximamente" />
+                </svg>
+              </div>
+             <br>
+
+          
+                <div id = "titulo_juegos_ofertas">
+                    <H1>MAS ESPERADOS💣💣💣</H1>
+                  </div>
+                <div class="container">
+                    <div class="swiper trading-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide trading-slide item-carousel">
+                                <div class="trading-slide-img">
+                                    <img src="images/needforspeed.png">
+                                </div>
+                                <button class="ui inverted red button"id="needforspeed">Ver</button>
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+                                <div class="trading-slide-img">
+                                    <img src="images/twistedmetal.png">
+                                </div>
+                                <button class="ui inverted red button" id="twistedmetal">Ver</button>
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+                                <div class="trading-slide-img">
+                                    <img src="images/granturismo.png">
+                                </div>
+                                <button class="ui inverted red button"id="granturismo">Ver</button>
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+                                <div class="trading-slide-img">
+                                    <img src="images/forza.png">
+                                </div>
+                                <button class="ui inverted red button"id="forzahorizon">Ver</button>
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+                                <div class="trading-slide-img">
+                                    <img src="images/thecrew.png">
+                                </div>
+                                <button class="ui inverted red button"id="thecrew">Ver</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+              <div class="five wide column"></div>
+            </div>
+        
+        <!-- Fin del menú -->
+     
+        <footer class="footer">
+            <p>2024 @Game Up Derechos reservados</p>
+          </footer>
+        <script src="Js/scrptsMenu.js"></script> <!-- Scripts del menú -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="js/script-acordeon.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="Js/proximamente.js"></script>
+        <script src="Js/redireccion_prox-juegos.js"></script>
+    </div>
+</body>
+
+</html>

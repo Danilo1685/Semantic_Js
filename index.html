@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO SEMANTIC-UI</title>
+    <link rel="stylesheet" href="css/styles_center.css">
+    <link rel="stylesheet" href="css/styles_grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="css/estilosHover.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/styles_index.css">
+
+</head>
+
+<body>
+<div id = "contenedora_central_index"> <!--Contenedora general-->
+
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <header id = "contenedor_index">
+        <div id ="image_index">
+            <img src="images/logo-Sinfondo.png">
+        </div>
+        <div id="nombre_pagina">
+            <h1>Game Up</h1>
+        </div>
+        <!-- Menú lateral -->
+        <nav id="mySidebar">
+            <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+            <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+            <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+            <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+            <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+            <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
+            <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+            <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+            <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+            <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+            <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+            <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+            <a href="acerca_de.html" onclick="loadContent('acerca_de.html')">Acerca de..</a>
+        </nav>
+
+        <!-- Fin del menu lateral-->
+    </header>
+
+
+
+    <div class="ui grid">
+        <div class="border-container_index">
+            <svg class="svg-border_index_sup" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <polyline points="0 1, 55 1, 60 8, 65 8, 100 8" class="border-line_index" />
+            </svg>
+          </div>
+        <div class="four column row">
+            <section id="trading_index">
+<!-- 
+                <div id = "titulo_juegos_index">
+
+                <!-- Titulo de la seccion
+                <H1>Mas Recientes</H1>
+                </div> -->
+
+                <div class="container_acordeon">
+                    <div class="background_index">
+                    <div class="gallery_index">
+                        <div class="card_index_acordeon">
+                        <figure>
+                            <img src="images/Final_fantasy/final_fantasy.png" alt="Preview" />
+                            <div class="hover-text">Final Fantasy VII Remasterizado</div>
+                            <button class="ui inverted red button">COMPRAR</button>
+                        </figure>
+                        </div>
+                        <div>
+                            <div class="hover-text">Final Fantasy VII Rebirth es un juego de acción  <br>y rol desarrollado y publicado por Square Enix para <br>PlayStation 5.
+                                La continuación de Final Fantasy VII Remake <br>(2020), en esta ocasión un ambicioso juego en mundo<br>
+                                abierto que continúa la épica aventura de Cloud, Tifa, Aerith,<br> Barret y compañía, con un espectacular y muy completo sistema<br> 
+                                de combate y una llena de sorpresas que reimagina de manera <br>única este clásico de los videojuegos.</div>
+                        </div>
+
+                    </div>
+                </div>
+                </section>
+            <div class="border-container_index">
+            <!-- Inicio y final de la linea-->
+            <svg class="svg-border_index" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <!-- Logica de cambio de la forma-->
+                <polyline points="0 1, 55 1, 60 8, 65 8, 100 8" class="border-line_index" />
+            </svg>
+            </div>
+
+
+            <section id="trading_index">
+
+                <div id = "titulo_juegos_index">
+                <H1>RECOMENDADOS</H1>
+                </div>
+
+                <div class="container_index">
+                    <div class="swiper trading-slider" id="carrusel_nuevos">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide trading-slide item-carousel">
+
+
+
+
+                                <figure id="card_index">
+                                <figcaption id="botones_index">
+                                    <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                                </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/Elden_ring/eldenrin.png" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a href="elden_right.html">Elder Ring</a>
+                                </figcaption>
+                                </figure>
+
+
+                            </div>
+
+
+                            <div class="swiper-slide trading-slide item-carousel">
+
+
+
+                                <figure id="card_index">
+                                <figcaption id="botones_index">
+                                    <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                                </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/Diablo/diabloiv.png" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a href="diablo.html">Diablo IV</a>
+                                </figcaption>
+                                </figure>
+
+
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+
+
+                                <figure id="card_index">
+                                <figcaption id="botones_index">
+                                    <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                                </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/descarga.jpeg" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a>Final Fantasy</a>
+                                </figcaption>
+                                </figure>
+
+
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+
+
+
+                                <figure id="card_index">
+                                <figcaption id="botones_index">
+                                    <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                                </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/Fallout/fallout.png" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a href="fallout.html">Fallout 4</a>
+                                </figcaption>
+                                </figure>
+
+
+                            </div>
+                            <div class="swiper-slide trading-slide item-carousel">
+
+
+                                <figure id="card_index">
+                                <figcaption id="botones_index">
+                                    <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                                </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/Final_fantasy/finalfantasy.png" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a href="final_fantasy.html">Final Fantasy VII</a>
+                                </figcaption>
+                                </figure>
+
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <div class="border-container_index">
+            <svg class="svg-border_index" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <polyline points="0 1, 55 1, 60 8, 65 8, 100 8" class="border-line_index" />
+            </svg>
+        </div>
+    <section id="trading_index">
+        
+        <div id = "titulo_juegos_index">
+            <H1>RPG</H1>
+        </div>
+    
+    <div class="container_index">
+        <div class="swiper trading-slider" id="carrusel_nuevos">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide trading-slide item-carousel">
+                    
+                    
+                    
+                    
+                    <figure id="card_index">
+                        <figcaption id="botones_index">
+                            <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                        <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                    </figcaption>
+                                <img class="trading-slide-img" id="img_nuevos" src="images/Elden_ring/eldenrin.png" alt="">
+                                <figcaption id="titulo_oferta">
+                                    <a href="elden_right.html">Elder Ring</a>
+                                </figcaption>
+                            </figure>
+                        
+                        
+                        </div>
+                    
+                    
+                    <div class="swiper-slide trading-slide item-carousel">
+                        
+                        
+                        
+                        <figure id="card_index">
+                            <figcaption id="botones_index">
+                                <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+                            <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+                        </figcaption>
+                    <img class="trading-slide-img" id="img_nuevos" src="images/Diablo/diabloiv.png" alt="">
+                <figcaption id="titulo_oferta">
+                    <a href="diablo.html">Diablo IV</a>
+                </figcaption>
+            </figure>
+        
+        
+        </div>
+    <div class="swiper-slide trading-slide item-carousel">
+
+        
+        <figure id="card_index">
+            <figcaption id="botones_index">
+                <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+            <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+        </figcaption>
+    <img class="trading-slide-img" id="img_nuevos" src="images/descarga.jpeg" alt="">
+<figcaption id="titulo_oferta">
+    <a>Final Fantasy</a>
+</figcaption>
+</figure>
+
+
+</div>
+<div class="swiper-slide trading-slide item-carousel">
+    
+    
+    
+    <figure id="card_index">
+        <figcaption id="botones_index">
+            <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+        <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+    </figcaption>
+<img class="trading-slide-img" id="img_nuevos" src="images/Fallout/fallout.png" alt="">
+<figcaption id="titulo_oferta">
+    <a href="fallout.html">Fallout 4</a>
+</figcaption>
+</figure>
+
+
+</div>
+<div class="swiper-slide trading-slide item-carousel">
+    
+    
+    <figure id="card_index">
+        <figcaption id="botones_index">
+            <button id="boton_link_poster" class="ui inverted orange button">Comprar</button>
+        <button id="boton_link_poster" class="ui inverted orange button">Agregar</button>
+    </figcaption>
+<img class="trading-slide-img" id="img_nuevos" src="images/Final_fantasy/finalfantasy.png" alt="">
+<figcaption id="titulo_oferta">
+    <a href="final_fantasy.html">Final Fantasy VII</a>
+</figcaption>
+</figure>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+<div class="left floated column"></div>
+
+
+
+
+<div class="border-container_index">
+    <svg class="svg-border_footer_index" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line_index" />
+    </svg>
+</div>
+
+
+
+<!-- Fin del menú -->
+
+<!-- Footer del proyecto-->
+<footer class="ui segment" id="footer_index">
+    <p>2024 @Game Up Derechos reservados</p>
+</footer>
+
+
+</div>           
+<!-- Scripts del menu-->
+
+<script src="Js/scrptsMenu.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/acordeon.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="Js/proximamente.js"></script>
+    <script src="Js/redireccion_prox-juegos.js"></script>
+    <script src="Js/scriptsSemantic.js"></script>
+</div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFERTAS</title>
+    <link rel="stylesheet" href="css/styles_center.css">
+    <link rel="stylesheet" href="css/styles_grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="css/estilosHover.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+
+<body>
+  <div id = "contenedora_central_ofertas"> <!--Contenedora general-->
+
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <header id = "contenedor_ofertas">
+          <div id ="image_ofertas">
+              <img src="images/logo-Sinfondo.png">
+          </div>
+          <h1>Game Up</h1>
+          <!-- Menú lateral -->
+          <nav id="mySidebar">
+              <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+              <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+              <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+              <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+              <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+              <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+              <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+              <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+              <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+              <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+              <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+          </nav>
+
+        <!-- Fin del menu lateral-->
+      </header>
+
+
+
+      <div class="ui grid">
+        <!-- Grid de Semantic UI-->
+          <div class="four column row">
+              <section id="trading_ofertas">
+
+                <div id = "titulo_juegos_ofertas">
+
+                  <!-- Titulo de la seccion-->
+                  <H1>Mas Vendidos</H1>
+                </div>
+
+                  <div id ="container_ofertas">
+                      <div class="swiper trading-slider" id="carrusel">
+                        <!-- Elementos que conforman el carrusel-->
+                          <div class="swiper-wrapper">
+
+                              <!-- Primer poster de la seccion-->
+
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <!-- Etiqueta de la oferta-->
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">25%</a>
+                                  </div>
+                                  
+                                  <!-- Poster de cada juego-->
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Final_fantasy/finalfantasy.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <!-- Titulo y link al juego-->
+                                    <a href="final_fantasy.html">final Fantasy Rebirth</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+
+                              <!-- Fin del primer poster-->
+
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                              
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">25%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Diablo/diabloiv.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="diablo.html">Diablo IV</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">30%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Elden_ring/eldenrin.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="elden_right.html">Elder Ring </a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">30%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/deadspace3/deadspace.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="dead_spice.html">Dead Space</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">20%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/counter strike 2/counter.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="counter_strike.html">Counter Strike 1.6</a>
+                                  </figcaption>
+                                </figure>
+
+                              </div>
+                            
+
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+            
+              <!-- Fin de la primera seccion-->
+            
+            <!-- Espacio que separa una seccion de otra-->
+
+            <div class="left floated column"></div>
+
+
+
+            <!-- Linea de estio que separa las secciones-->  
+
+            <div class="border-container">
+              <!-- Inicio y final de la linea-->
+              <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                  <!-- Logica de cambio de la forma-->
+                  <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" />
+              </svg>
+            </div>
+
+
+              <section id="trading_ofertas">
+
+                <div id = "titulo_juegos_ofertas">
+                  <H1>RPG</H1>
+                </div>
+
+                  <div id="container_ofertas">
+                      <div class="swiper trading-slider" id="carrusel">
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">30%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="comprar_elden_right" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Elden_ring/eldenrin.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="elden_right.html">Elder Ring</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+
+
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                              
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">25%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Diablo/diabloiv.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="diablo.html">Diablo IV</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">15%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Dark_souls/dark-souls.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="dark_soul.html">Dark Souls III</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">15%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Fallout/fallout.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="fallout.html">Fallout 4</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">25%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Final_fantasy/finalfantasy.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="final_fantasy.html">Final Fantasy VII</a>
+                                  </figcaption>
+                                </figure>
+
+                              </div>
+                            
+                              
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+
+            <div class="left floated column"></div>
+
+
+
+          
+            <div class="border-container">
+              <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                  <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" />
+              </svg>
+            </div>
+
+              <section id="trading_ofertas">
+
+                <div id = "titulo_juegos_ofertas">
+                  <H1>Shooter</H1>
+                </div>
+
+                  <div id="container_ofertas">
+                      <div class="swiper trading-slider" id="carrusel">
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">20%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Battle_city/battle_city.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="battle_city.html">Battle City</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+
+
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                              
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">10%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/battlefield_4/batlefield4.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="battlefield.html">Battlefield 4</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">15%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/Forza/forza.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="forza.html">Forza</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">15%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/rainbow six siege/rainbowsix.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="rainbow_six.html">Rainbow VI</a>
+                                  </figcaption>
+                                </figure>
+
+
+                              </div>
+                              <div class="swiper-slide trading-slide item-carousel">
+
+                                  <div id="etiqueta" class="ui tag labels">
+                                    <a class="ui label long leaf">20%</a>
+                                  </div>
+  
+                                <figure id="card_oferta">
+                                  <figcaption id="botones_oferta">
+                                    <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                                    <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                                  </figcaption>
+                                  <img class="trading-slide-img" id="img_ofertas" src="images/counter strike 2/counter.png" alt="">
+                                  <figcaption id="titulo_oferta">
+                                    <a href="counter_strike.html">Counter Strike 1.6</a>
+                                  </figcaption>
+                                </figure>
+
+                              </div>
+                            
+                              
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+
+            <div class="left floated column"></div>
+
+
+
+        
+            <div class="border-container">
+              <svg class="svg-border_footer" viewBox="0 0 100 10" preserveAspectRatio="none">
+                  <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" />
+              </svg>
+            </div>
+
+
+
+      <!-- Fin del menú -->
+      
+      <!-- Footer del proyecto-->
+      <footer class="ui segment" id="footer_ofertas">
+          <p>2024 @Game Up Derechos reservados</p>
+      </footer>
+
+
+    <!-- Scripts del menu-->
+
+    <script src="Js/scrptsMenu.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/acordeon.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="Js/proximamente.js"></script>
+    <script src="Js/redireccion_prox-juegos.js"></script>
+    <script src="Js/scriptsSemantic.js"></script>
+    <script src="Js/redireccion_ofertas.js"></script>
+  </div>
+
+</body>
+
+</html>
+

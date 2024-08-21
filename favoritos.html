@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAVORITOS</title>
+
+  <link rel="stylesheet" href="css/styles_center.css">
+  <link rel="stylesheet" href="css/styles_grid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+  <link rel="stylesheet" href="css/styles_menu.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+  <div class="contenedora_total"> <!-- Contenedora general -->
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <header class="contenedor">
+
+      <div class="image">
+        <img src="images/logo-Sinfondo.png" alt="Logo Game Up">
+      </div>
+      <h1>Game Up</h1>
+      <!-- Menú lateral -->
+      <nav id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+        <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+        <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+        <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+        <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos free</a>
+        <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos pro</a>
+        <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+        <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+        <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+        <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+      </nav>
+    </header>
+    <!-- Fin del menú -->
+
+    <div class="ui teal segment">
+
+      <iframe id=juegos_video class="ui large left floated image" src="https://www.youtube.com/embed/zMyeAFzCTM0"
+        title="generic" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p id="juegos_descripcion"></p>
+    </div>
+
+    <div class="border-container">
+      <!-- Inicio y final de la linea-->
+      <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <!-- Logica de cambio de la forma-->
+        <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="linea_favoritos" />
+      </svg>
+    </div>
+
+    <div class="ui teal segment" id="contenedorFavoritos">
+
+      <h1 class="ui left floated header">Mis Favoritos</h1>
+      <div class="ui clearing divider"></div>
+
+      <div id=container class="ui six doubling cards"></div>
+     <!--  <div class="card"></div> -->
+
+      <footer class="footer" id="footerfavoritos">
+        <p>&copy; 2024 Game Up - Todos los derechos reservados</p>
+      </footer>
+    </div>
+
+    <script src="Js/scrptsMenu.js"></script> <!-- Scripts del menú -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+
+    <script src="Js/favoritosjs.js"></script>
+</body>
+<script>
+  const updateDescription = (descripcion) => {
+    const juegoDescripcion = document.getElementById("juegos_descripcion");
+    juegoDescripcion.innerHTML = descripcion
+  };
+
+  const changeIframe = (title, src) => {
+    const iframe = document.getElementById("juegos_video");
+    iframe.src = src;
+    iframe.title = title;
+  };
+
+  const handleCardClick = (item) => {
+    changeIframe(item.title, item.link)
+    updateDescription(item.description)
+  }
+
+  // El link del video SIEMPRE debe ser de tipo ../embed/..
+  const data = [
+  { sourceImg: "/images/fifa.png", title: "FIFA", description: 'FIFA<BR>EA SPORTS produce, desde hace más de 20 años, la emblemática saga FIFA, que ahora es la mayor franquicia de videojuegos de deportes del mundo. FIFA le da vida al deporte rey y te permite jugar con las ligas, los clubes y los jugadores más importantes del futbol mundial, todo con un increíble nivel de detalles y realismo. Ya sea que quieras crear el equipo de tus sueños en FIFA Ultimate Team, llevar a tu club favorito a la gloria en el modo Carrera, regresar el juego a las calles con EA SPORTS VOLTA FOOTBALL o ganar el derecho a presumir delante de un amigo en el modo Patada Inicial, la saga FIFA te permite jugar El juego de todos a tu manera.', link: 'https://www.youtube.com/embed/L30zvMbVJlM?si=cssIMpJVcC4EDwNx' },
+  { sourceImg: "/images/amnesia.png", title: "Amnesia", description: 'Amnesia<br>Amnesia: The Dark Descent es un juego de horror y supervivencia en primera persona. Un juego sobre la inmersión, el descubrimiento y la vida dentro de una pesadilla. Una experiencia que te helará la sangre. Vas tropezando por los estrechos pasillos cuando escuchas un grito en la lejanía. Se está acercando.', link: 'https://www.youtube.com/embed/u1nY_5-UrY4' },
+  { sourceImg: "/images/granturismo.png", title: "Gran Turismo", description: 'Gran Turismo 7<br> cuenta con más de 400 coches pertenecientes a más de 60 fabricantes. En el juego se han recreado meticulosamente coches de todas las épocas y de todo el mundo, desde los conocidos modelos de producción en serie hasta los raros y legendarios coches de carreras. Además, se han añadido coches nuevos al juego mediante actualizaciones de contenido periódicas desde el lanzamiento. Adéntrate y descubre las joyas secretas del mundo del automóvil.', link: 'https://www.youtube.com/embed/jGVt6zaTXAw' },
+  
+  { sourceImg: "/images/doom.png", title: "Doom", description: 'DOMM<br>Has venido aquí por una razón. El centro de investigación masiva de la Union Aerospace Corporation sobre Marte está abrumada por demonios feroces y poderosos, y sólo una persona se interpone entre su mundo y el nuestro. Como el solitario DOOM Marine, te activó para hacer una cosa, matarlos a todos.', link: "https://www.youtube.com/embed/jGVt6zaTXAw"  },
+  { sourceImg: "/images/finalfantasy.png", title: "Final_fantasy", description: 'Final Fantasy<br>Una versión remodelada en 2D del primer título de la célebre serie FINAL FANTASY! Disfruta de una historia clásica narrada a través de unos gráficos retro fascinantes. Toda la magia del original con una jugabilidad mejorada.Tierra, Fuego, Agua, Viento… La Luz que alguna vez brilló dentro de ellos se ha apagado. Con el mundo asolado por la oscuridad, la única esperanza para la humanidad yace en las antiguas leyendas. Métete en la piel de los Guerreros de la Luz y embárcate en tu propia aventura para recuperar el poder de los Cristales y salvar el mundo.Cambia de oficios para mejorar tus personajes. Recorre el amplio mundo con tu barco volador y otros medios. Vuelve al juego con el que empezó todo.', link: 'https://www.youtube.com/embed/KOhs9ZLImgE' }, 
+  { sourceImg: "/images/thecrew.png", title: "The Crew", description: 'The Crew<br>Este año, The Crew ha recibido el modo Race Creator, que permite a cualquier jugador crear sus propias carreras y eventos. Con MAD Vol. 2, los coches ya no serán el límite: ¡prepárate para incluir lanchas y aviones a tus desafíos personalizados por todo Estados Unidos!', link: 'https://www.youtube.com/embed/d4JnshyKOOQ' },
+];
+
+const container = document.getElementById('container');
+
+data.forEach(item => {
+  // Crear la tarjeta
+  const card = document.createElement('div');
+  card.classList.add('card');
+  card.onclick = () => handleCardClick(item);
+
+  // Crear el contenido de la tarjeta
+  const image = document.createElement('img');
+  image.src = item.sourceImg;
+  image.alt = item.title;
+  image.classList.add('ui', 'large', 'image');
+
+  const content = document.createElement('div');
+  content.classList.add('content');
+  
+  const header = document.createElement('div');
+  header.classList.add('header');
+  header.textContent = item.title;
+
+  content.appendChild(header);
+
+  // Ensamblar la tarjeta
+  card.appendChild(image);
+  card.appendChild(content);
+  container.appendChild(card);
+});
+
+const updateAtRender = () => {
+  handleCardClick(data[0])
+}
+updateAtRender();
+</script>
+</html>

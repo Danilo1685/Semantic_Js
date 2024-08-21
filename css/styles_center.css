@@ -1,0 +1,467 @@
+.contenedora_central {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box;
+}
+
+.para_ti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 4px solid blue;
+    width: 100%;
+}
+
+
+.top_10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(150, 141, 141);
+    border-radius: 10px;
+
+    width: 100%;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid blue;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+    /* Esto empuja el footer al final del contenedor */
+    width: 100%;
+    display: flex;
+}
+
+
+#contenedora_central{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box;
+}
+
+#footer {
+    background-color: rgb(150, 141, 141);
+    position: relative;
+}
+
+
+
+:root {
+    --background: linear-gradient(rgb(129, 129, 134), rgb(219, 213, 214));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+
+.card {
+    position: relative;
+    left: 0;
+    width: 6rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    background: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+}
+
+/* .card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+} */
+
+/* polish images center */
+
+
+.item-carousel {
+    width: auto !important;
+
+}
+
+#trading h1 {
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+
+#titulos_juegos h3 {
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+
+#a {
+    background-color: blue;
+
+}
+
+#b {
+    background-color: red;
+}
+
+#c {
+    background-color: green;
+}
+
+#d {
+    background-color: brown;
+}
+
+#e {
+    background-color: yellow;
+}
+
+
+/* OFERTAS */
+#trading_ofertas img {
+    margin-top: 20px;
+    /* Puedes ajustar este valor según lo necesites */
+}
+
+#trading_ofertas h1 {
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid orange;
+    width: 100vw;
+    /* Ancho completo de la ventana */
+    margin: 0;
+    /* Eliminar márgenes */
+    background-color: rgb(150, 141, 141);
+}
+
+#contenedora_central_ofertas {
+    background-color: rgb(150, 141, 141);
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: var(--background);
+    box-sizing: border-box;
+    /* Incluye el borde en el tamaño total */
+    border: 4px solid orange;
+    overflow-x: hidden;
+}
+
+#container_ofertas {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(150, 141, 141);
+}
+
+.four.column.row {
+    padding: none;
+}
+
+#carrusel_ofertas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(150, 141, 141);
+    margin-top: 1rem;
+    width: 100%;
+
+}
+
+#todas_ofertas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(150, 141, 141);
+}
+
+#flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#img_ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /* Ajuste de la imagen dentro del contenedor */
+}
+
+#poster {
+    position: relative;
+    /* Posicionamiento relativo */
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(150, 141, 141);
+}
+
+#etiqueta {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    z-index: 10;
+
+}
+
+#card_oferta {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(150, 141, 141);
+}
+
+#etiqueta_precio {
+    display: flex;
+    align-self: end;
+    /* Alineación al final */
+}
+
+
+
+#etiqueta {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    z-index: 10;
+
+}
+
+#card_oferta {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(150, 141, 141);
+}
+
+#etiqueta_precio {
+    display: flex;
+    align-self: end;
+    /* Alineación al final */
+}
+
+
+#etiqueta a {
+    background-color: green;
+    font-size: 0.95rem;
+    color: white;
+}
+
+figcaption a {
+    font-size: 1.35rem;
+    color: orange;
+}
+
+#titulo_oferta {
+    max-height: 0px;
+}
+
+#botones_oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#boton_link_poster {
+    margin: 10% 0 0 0;
+}
+
+.ui.grid+.grid {
+    margin-top: 0;
+}
+
+#carrusel2 .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    /* Permite el desplazamiento horizontal */
+}
+
+#carrusel2 .swiper-slide {
+    flex: 0 0 auto;
+    /* Evita que los elementos cambien de tamaño */
+    background-color: rgb(150, 141, 141);
+}
+
+#titulo_juegos_ofertas {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#titulo_juegos_ofertas h1 {
+    background-color: rgb(182, 182, 182);
+    max-width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 1rem;
+    padding: 0;
+    font-size: 1.3rem;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.753);
+    /* Sombra */
+}
+
+.border-container {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 4% 0 0 0;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.svg-border {
+    margin-bottom: -3rem;
+    width: 100%;
+    height: 5rem;
+    /* Ajusta la altura del contenedor SVG */
+    display: flex;
+    align-items: flex-end;
+    /* Alinea la línea al final del contenedor */
+}
+
+.border-line {
+    fill: none;
+    /* Sin relleno */
+    stroke: orange;
+    /* Color de la línea */
+    stroke-width: 0.5;
+    /* Ajusta el espesor de la línea */
+    stroke-linecap: round;
+    /* Extremos redondeados */
+}
+
+.svg-border_footer {
+    margin-bottom: -4rem;
+    width: 100%;
+    height: 5rem;
+    /* Ajusta la altura del contenedor SVG */
+    display: flex;
+    align-items: flex-end;
+    /* Alinea la línea al final del contenedor */
+}
+
+#footer_ofertas {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid rgb(219, 29, 4);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: -1rem;
+}
+/* Fin Ofertas */
+
+/* Inicio Juegos_free */
+#contenedora_central_juegos_free{
+    background-color: rgb(150, 141, 141);
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: var(--background);
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+    border: 4px solid rgb(255, 102, 0);
+}
+
+#footer_juegos_free {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid rgb(255, 102, 0);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: -1rem;
+}
+
+#juegos_free_line{
+    stroke: rgb(255, 102, 0);
+}
+
+/* Fin Juegos_free */
+
+
+#linea_proximamente{
+    stroke: red;
+}
+#linea_favoritos{
+    stroke: aquamarine;
+}
+#footerfavoritos{
+    border: 2px solid aquamarine;
+}
+#juegos_descripcion{
+    background-color: silver;
+}
+#contenedorFavoritos{
+    background-color: silver;
+}
+#footer-proximamnete{
+    border: 2px solid red;
+}
+
+
+

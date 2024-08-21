@@ -1,0 +1,38 @@
+
+/* Estilos del menú */
+#mySidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #534f4f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index:999;
+}
+
+#mySidebar a {
+  color: #fff;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  transition: 0.3s;
+  border-radius: 32px;
+  z-index:999;
+}
+
+#mySidebar a:hover {
+  background-color: #1ca7bf;
+  color: #333;
+}
+
+/* Estilos del encabezado  */
+header {
+  display:flex;
+  color: #000000;
+  flex-direction: row;
+
+}
+

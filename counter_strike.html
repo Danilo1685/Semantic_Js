@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter_strike</title>
+    <link rel="stylesheet" href="css/styles_center.css">
+    <link rel="stylesheet" href="css/styles_grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  
+</head>
+
+<body>
+  <div class="contenedora_total"> <!--Contenedora general-->
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <header class="contenedor">
+      <div class="image">
+        <img src="images/logo-Sinfondo.png">
+      </div>
+      <h1>Game Up</h1>
+      <!--Menu lateral-->
+      <nav id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+        <a href="categorias.html" onclick="loadContent('categorias.html')">Catergoria</a>
+        <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+        <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+        <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
+        <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos free</a>
+        <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos pro</a>
+        <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+        <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+        <a href="proximamente.html" onclick="loadContent('proximamente.html')">Proximamente</a>
+        <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+        <a href="acerca_de.html" onclick="loadContent('acerca_de.html')">Acerca de..</a>
+      </nav>
+    </header>
+    <!--Fin del menu-->
+    <h3 class="ui block header" id="titulos_juegos" >Counter-Strike: Global Ofensive </h3>
+    <div class="ui segment">
+      <iframe class="ui small left floated image"src="https://www.youtube.com/embed/kDDnvAr6gGI" title="Counter-Strike 2: Official Responsive Smokes Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h3>Acerca de este juego</h3>
+      <img class="ui small right floated image" src="images/counter.png" alt="Imagen derecha">
+      <p>Counter-Strike: Global Ofensive (CS:GO) amplía el juego de disparos en primera persona por equipos del que fue pionero cuando salió en 1999. Dos equipos compiten en múltiples rondas con un modo de juego enfocado en objetivos con la misión de ganar suficientes rondas para llevarse la victoria.
+
+        CS:GO presenta nuevos mapas, personajes y armas, y ofrece versiones actualizadas de los clásicos mapas de Counter-Strike como Dust, Inferno, Nuke, Train y más. Además, CS:GO introduce nuevos modos de juego, como Carrera de Armamentos, Cazapatos y Compañero, y ofrece matchmaking en línea y grupos de habilidad competitivos.
+        <h4>Modos de juego</h4>
+        <h5>Competitivo</h5>
+        <p>El modo Competitivo ofrece grupos de habilidad exclusivos que los jugadores pueden obtener y mostrar, comenzando por Plata I y ascendiendo hasta la Élite Mundial. ¡Únete a una partida por tu cuenta o forma un equipo y poneos a la cola para jugar juntos!
+        
+            
+        </p>
+        <h5>Compañero</h5>
+        <p>Métete en la cola por tu cuenta o júntate con un amigo para entrar en una partida de 2c2 en un modo al mejor de 16 partidas con mapas de un único emplazamiento de bomba. Los jugadores ganan un grupo de habilidad exclusivo de Compañero y juegan según el conjunto de reglas del modo Competitivo de desactivación de bomba. ¡Compra armas, armaduras y kits de desactivación para colocar la bomba o defender el emplazamiento de la bomba!</p>
+        <h5>Casual</h5>
+        <p>¿Estás listo para jugar algo de Counter-Strike pero no quieres comprometerte con una partida de 30 rondas? Encuentra una partida casual y juega a tu propio ritmo en este modo donde puedes entrar y salir cuando quieras.
+
+          En el modo Casual, los jugadores reciben automáticamente armaduras y kits de desactivación, juegan con una economía simplificada y el daño al equipo está desactivado. ¡Únete a una partida y empieza a dominar los fundamentos de CS:GO!</p>
+        
+          <div class="ui right aligned grid">
+            <div class="left floated right aligned six wide column">
+              <div class="ui segment">
+                <div class="ui statistics">
+                  <div class="statistic">
+                    <div class="value">22</div>
+                    <div class="label">Favoritos</div>
+                  </div>
+                  <div class="statistic">
+                    <div class="value">31,200</div>
+                    <div class="label">Vistas</div>
+                  </div>
+                  <div class="statistic">
+                    <div class="value">22</div>
+                    <div class="label">Miembros</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui labeled button" tabindex="0">
+                <div class="ui red button"><i class="heart icon"></i>  Me Gusta </div>
+                <a class="ui basic red left pointing label">
+                  1,048
+                </a>
+              </div>
+              <div class="ui labeled button" tabindex="0">
+                <div class="ui basic blue button"><i class="fork icon"></i> Compartir </div>
+                <a class="ui basic left pointing blue label">
+                  1,048
+                </a>
+                <button class="ui circular facebook icon button">
+                  <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                  <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                  <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                  <i class="google plus icon"></i>
+                </button>
+              </div>
+            
+            </div>
+            
+            <div class="right floated left aligned six wide column">
+              <div class="ui segment">
+                <div class="ui comments">
+                  <div class="comment">
+                    <a class="avatar">
+                      <img src="/images/daniel.jpg">
+                    </a>
+                    <div class="content">
+                      <a class="author">Steve Jobes</a>
+                      <div class="metadata">
+                        <div class="date">Hace 2 días</div>
+                      </div>
+                      <div class="text">Revolutionary! </div>
+                      <div class="actions">
+                        <a class="reply active">Reply</a>
+                      </div>
+                      <form class="ui reply form">
+                        <div class="field">
+                          <textarea></textarea>
+                        </div>
+                        <div class="ui primary submit labeled icon button"><i class="icon edit"></i> Añadir respuesta </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+    <footer class="footer">
+      <p>2024 @Game Up Derechos reservados</p>
+    </footer>
+    <script src="Js/scrptsMenu.js"></script> <!--scripts del menu-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+</body>
+
+</html>

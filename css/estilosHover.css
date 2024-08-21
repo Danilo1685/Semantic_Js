@@ -1,0 +1,307 @@
+/* Establece el margen, el relleno y el box-sizing para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor de la galería */
+#gallery {
+    display: flex;
+}
+
+/* Estilo para la tarjeta de oferta */
+#card_oferta {
+    width: 10rem;
+    background-color: rgb(19, 12, 6);
+    transition: 1000ms all;
+    /* Transición suave */
+    transform-origin: center left;
+    /* Punto de origen para la transformación */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    /* Sombra */
+    outline: 1px solid var(--background);
+    /* Borde */
+    overflow: hidden;
+    /* Oculta el desbordamiento */
+    margin: 0px;
+}
+
+/* Estilo para la imagen dentro de la tarjeta */
+#card_oferta img {
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir completamente */
+    background-color: black;
+}
+
+/* Estilo para la tarjeta al pasar el ratón por encima */
+#card_oferta:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /* Aumenta el tamaño de la tarjeta */
+    right: 40%;
+}
+
+/* Animación para el desvanecimiento de la tarjeta */
+@keyframes cardFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Estilo inicial para los botones de oferta dentro de la tarjeta */
+#botones_oferta {
+    visibility: hidden;
+    height: 0px;
+}
+
+/* Estilo para los botones de oferta al pasar el ratón por encima de la tarjeta */
+#card_oferta:hover #botones_oferta {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-bottom: 10%;
+    visibility: visible;
+}
+
+/* Estilo para el título de oferta al pasar el ratón por encima de la tarjeta */
+#card_oferta:hover #titulo_oferta {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    left: 0;
+    bottom: 0;
+    padding-left: 0.75rem;
+    padding-bottom: 0.65rem;
+    visibility: visible;
+}
+
+/* Estilo para las tarjetas adyacentes al pasar el ratón por encima de la tarjeta */
+#card_oferta:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(1.3rem);
+    /* Desplaza la tarjeta a la derecha */
+}
+
+
+
+/* Nuevos */
+
+#gallery {
+    display: flex;
+}
+
+#card_nuevos {
+    width: 10rem;
+    background-color: rgb(19, 12, 6);
+    transition: 1000ms all;
+    /* Transición suave */
+    transform-origin: center left;
+    /* Punto de origen para la transformación */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    /* Sombra */
+    outline: 1px solid var(--background);
+    /* Borde */
+    overflow: hidden;
+    /* Oculta el desbordamiento */
+    margin: 0px;
+}
+
+#card_nuevos img {
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir completamente */
+    background-color: black;
+}
+
+/* Estilo para la tarjeta al pasar el ratón por encima */
+#card_nuevos:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /* Aumenta el tamaño de la tarjeta */
+    right: 40%;
+}
+
+/* Animación para el desvanecimiento de la tarjeta */
+@keyframes cardFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Estilo inicial para los botones de oferta dentro de la tarjeta */
+#botones_oferta {
+    visibility: hidden;
+    height: 0px;
+}
+
+/* Estilo para los botones de oferta al pasar el ratón por encima de la tarjeta */
+#card_nuevos:hover #botones_oferta {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-bottom: 10%;
+    visibility: visible;
+}
+
+/* Estilo para el título de oferta al pasar el ratón por encima de la tarjeta */
+#card_nuevos:hover #titulo_oferta {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    left: 0;
+    bottom: 0;
+    padding-left: 0.75rem;
+    padding-bottom: 0.65rem;
+    visibility: visible;
+}
+
+/* Estilo para las tarjetas adyacentes al pasar el ratón por encima de la tarjeta */
+#card_nuevos:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(1.3rem);
+    /* Desplaza la tarjeta a la derecha */
+}
+
+#botones_index {
+    visibility: hidden;
+    height: 0px;
+}
+
+/* FIN NUEVOS */
+
+/* INDEX */
+#card_index {
+    width: 10rem;
+    background-color: rgb(19, 12, 6);
+    transition: 1000ms all;
+    /* Transición suave */
+    transform-origin: center left;
+    /* Punto de origen para la transformación */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    /* Sombra */
+    outline: 1px solid var(--background);
+    /* Borde */
+    overflow: hidden;
+    /* Oculta el desbordamiento */
+    margin: 0px;
+}
+
+#card_index img {
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir completamente */
+    background-color: black;
+}
+
+/* Estilo para la tarjeta al pasar el ratón por encima */
+#card_index:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /* Aumenta el tamaño de la tarjeta */
+    right: 40%;
+}
+
+/* Animación para el desvanecimiento de la tarjeta */
+@keyframes cardFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Estilo inicial para los botones de oferta dentro de la tarjeta */
+#botones_index {
+    visibility: hidden;
+    height: 0px;
+}
+
+/* Estilo para los botones de oferta al pasar el ratón por encima de la tarjeta */
+#card_index:hover #botones_index {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-bottom: 10%;
+    visibility: visible;
+}
+
+/* Estilo para el título de oferta al pasar el ratón por encima de la tarjeta */
+#card_index:hover #titulo_oferta {
+    animation: cardFade 0.3s ease-in-out;
+    /* Aplica animación de desvanecimiento */
+    font-size: 0.6rem;
+    position: absolute;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    left: 0;
+    bottom: 0;
+    padding-left: 0.75rem;
+    padding-bottom: 0.65rem;
+    visibility: visible;
+}
+
+/* Estilo para las tarjetas adyacentes al pasar el ratón por encima de la tarjeta */
+#card_index:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(1.3rem);
+    /* Desplaza la tarjeta a la derecha */
+}
+
+#botones_index {
+    visibility: hidden;
+    height: 0px;
+}

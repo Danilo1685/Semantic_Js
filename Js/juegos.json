@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "titulo": "Final Fantasy Rebirth",
+        "imagen": "images/finalfantasy.png",
+        "descripcion": "Este es un juego épico donde los héroes luchan para salvar el mundo...",
+        "link": "final_fantasy.html"
+    },
+    {
+        "id": 2,
+        "titulo": "Amnesia",
+        "imagen": "images/amnesia.png",
+        "descripcion": "Amnesia: The Dark Descent es un juego de horror y supervivencia en primera persona. Un juego sobre la inmersión, el descubrimiento y la vida dentro de una pesadilla. Una experiencia que te helará la sangre. Vas tropezando por los estrechos pasillos cuando escuchas un grito en la lejanía. Se está acercando.",
+        "link": "amnesia.html"
+    },
+    {
+        "id": 3,
+        "titulo": "Battle City",
+        "imagen": "images/battle_city.png",
+        "descripcion": "El videojuego consiste en controlar a tu tanque en un mapa o nivel repleto de muchos enemigos que también son tanques de diferentes aspectos y características. El objetivo principal es destruir o acabar con todos tanques enemigos en cada nivel lleno de bloques que se nos presenta el juego y además defender la base la cual está representada como la figura de un Águila, que en caso de que la destruyan, pierdes y vuelves a comenzar de nuevo. Por otro lado mientras más se va avanzando más tanques de características fuertes van saliendo a lo largo de los Niveles. El juego consta con un total de 35 Mapas distintos aunque si se llega a completar todos estos sin perder todas las vidas, el juego vuelve a repetir los mismos 35 Mapas a partir del Nivel 36 y así sucesivamente sin tener un fin. No obstante si lograste esta hazaña déjame decirte que acabaste el juego ya que es muy difícil superar los 35 niveles sin perder todas las vidas o que no te destruyan al Águila.",
+        "link": "battle_city.html"
+    },
+    {
+        "id": 4,
+        "titulo": "Battlefield 4",
+        "imagen": "images/batlefield4.png",
+        "descripcion": "La Edición Premium de Battlefield 4™ te ofrece los mejores mapas, modos y mucho más, todo en un único producto. Completa apasionantes misiones para desbloquear armas. Supera los desafíos tácticos de un entorno interactivo descomunal. Destruye los edificios que dan cobijo a tus enemigos, lidera un asalto desde la parte trasera de un cañonero o sácale todo el partido a un poquito de C4. En las inmensas batallas para 64 jugadores, usa todos tus recursos y dalo todo para alcanzar la victoria.",
+        "link": "battlefield.html"
+    },
+    {
+        "id": 5,
+        "titulo": "budokai tenkaichi III<",
+        "imagen": "images/budokai.png",
+        "descripcion": "Desarrollado por Spike y publicado por Atari en Norteamérica y Namco Bandai Games en Japón y Europa, es un videojuego de lucha que se lanzó en 2007. Este título es el tercer y último juego de la serie Budokai Tenkaichi y es conocido por su extenso elenco de personajes, que abarca casi todas las eras del universo de Dragon Ball, Dragon Ball Z, Dragon Ball GT, y películas relacionadas.",
+        "link": "budokai_tenkaichi_iii.html"
+    },
+    {
+        "id": 6,
+        "titulo": "Counter strike",
+        "imagen": "images/counter.png",
+        "descripcion": "Counter-Strike: Global Ofensive (CS:GO) amplía el juego de disparos en primera persona por equipos del que fue pionero cuando salió en 1999. Dos equipos compiten en múltiples rondas con un modo de juego enfocado en objetivos con la misión de ganar suficientes rondas para llevarse la victoria.",
+        "link": "counter_strike.html"
+    },
+    {
+        "id": 7,
+        "titulo": "Dark Souls",
+        "imagen": "images/dark-souls.png",
+        "descripcion": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. Dark Souls Remastered incluye el juego principal y el contenido descargable 'Artorias of the Abyss'.",
+        "link": "dark_souls.html"
+    },
+    {
+        "id": 8,
+        "titulo": "Daytona",
+        "imagen": "images/daytona.png",
+        "descripcion": "El juego incluye tres circuitos. La más fácil es Beginner, que son 8 vueltas en un circuito casi formando un óvalo de tres curvas. La segunda, Advanced, es un poco más difícil e incluye 4 vueltas, y el circuito está conformado por curvas y contracurvas, tornando un poco más compleja la conducción. La más complicada es Expert, la cual pide al jugador hacer 2 vueltas. La longitud del circuito es mucho mayor a las anteriores, como así también mucho mayor es su dificultad debido a la gran cantidad de curvas y a la dificultad de las mismas ",
+        "link": "daytona.html"
+    },
+    {
+        "id": 9,
+        "titulo": "Dead Space",
+        "imagen": "images/deadspace.png",
+        "descripcion": "Enfréntate a la pesadilla a bordo del USG Ishimura y desvela sus oscuros secretos en Dead Space™, el clásico de terror y ciencia ficción.",
+        "link": "dead_spice.html"
+    },
+    {
+        "id": 10,
+        "titulo": "Diablo IV",
+        "imagen": "images/diabloiv.png",
+        "descripcion": "Diablo® IV es el RPG de acción definitivo en el que tendrás que acabar con incontables males, dominar un sinfín de habilidades, superar mazmorras de pesadilla y coleccionar botín legendario. Embárcate en la épica campaña por tu cuenta o con amigos, conoce personajes memorables en un mundo de siniestra belleza y una historia fascinante o explora el amplísimo contenido del final del juego: lucha por llegar a lo alto de la clasificación mundial en el Torneo, frena las arremetidas del infierno en las Mareas Infernales, domina la forja para crear las armas perfectas y progresar con poderosos personajes, y disfruta del juego cruzado y la progresión cruzada en todas las plataformas.",
+        "link": "diablo.html"
+    },
+    {
+        "id": 11,
+        "titulo": "Doom",
+        "imagen": "images/doom.png",
+        "descripcion": "Has venido aquí por una razón. El centro de investigación masiva de la Union Aerospace Corporation sobre Marte está abrumada por demonios feroces y poderosos, y sólo una persona se interpone entre su mundo y el nuestro. Como el solitario DOOM Marine, te activó para hacer una cosa, matarlos a todos.",
+        "link": "doom.html"
+    },
+    {
+        "id": 12,
+        "titulo": "FIFA 23",
+        "imagen": "images/fifa.png",
+        "descripcion": "EA SPORTS produce, desde hace más de 20 años, la emblemática saga FIFA, que ahora es la mayor franquicia de videojuegos de deportes del mundo. FIFA le da vida al deporte rey y te permite jugar con las ligas, los clubes y los jugadores más importantes del futbol mundial, todo con un increíble nivel de detalles y realismo. Ya sea que quieras crear el equipo de tus sueños en FIFA Ultimate Team, llevar a tu club favorito a la gloria en el modo Carrera, regresar el juego a las calles con EA SPORTS VOLTA FOOTBALL o ganar el derecho a presumir delante de un amigo en el modo Patada Inicial, la saga FIFA te permite jugar El juego de todos a tu manera.",
+        "link": "fifa.html"
+    },
+    {
+        "id": 13,
+        "titulo": "Elden Ring",
+        "imagen": "images/eldenrin.png",
+        "descripcion": "Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.",
+        "link": "elden_right.html"
+    },
+    {
+        "id": 14,
+        "titulo": "Fornite",
+        "imagen": "images/fornite.png",
+        "descripcion": "Crea, juega y combate gratis con amigos| en Fortnite. Sé la úitima persona en pie de la Batalla campal y Cero construcción, disfruta de un concierto o un evento en vivo",
+        "link": "fornite.html"
+    },
+    {
+        "id": 15,
+        "titulo": "Forza",
+        "imagen": "images/forza.png",
+        "descripcion": "Explora paisajes dinámicos y en constante evolución del mundo abierto de México con una acción de conducción ilimitada y divertida en cientos de los mejores coches del mundo.",
+        "link": "forza.html"
+    },
+    {
+        "id": 16,
+        "titulo": "Gran Turismo 7",
+        "imagen": "images/granturismo.png",
+        "descripcion": "Gran Turismo se lanzó por primera vez como 'El simulador de conducción real' en 1997. La colección del juego de conocidos coches de producción en serie de fabricantes reales y la posibilidad de conducirlos en un mundo virtual realista recibieron grandes elogios no solo por parte de los jugadores, sino también de los entusiastas del automovilismo de todo el mundo. 25 años y varias entregas después, Gran Turismo vuelve para culminar los conceptos fundamentales de la saga. Conducir. Coleccionar. Personalizar. Vive el placer de los coches en el mundo de Gran Turismo 7.",
+        "link": "gran_turismo.png.html"
+    },
+    {
+        "id": 17,
+        "titulo": "Left Four Fead.png",
+        "imagen": "images/leftfourdead.png",
+        "descripcion": "La nueva aventura para PC y Xbox 360 que te mete en la piel de uno de los cuatro «supervivientes» en su pugna épica contra hordas de zombis y sus terroríficas variedades mutantes especiales. Ambientado justo tras el estallido del largamente anunciado Apocalipsis zombi, la dinámica de juego cooperativa de Left 4 Dead se desarrolla en cuatro extensas «películas» que guían a los supervivientes por los tejados de metrópolis abandonadas, por pueblos abandonados y bosques sumidos en la oscuridad, todo para que consigas escapar del epicentro devastado lleno de enemigos infectados. Cada «película» consta de cinco grandes mapas y permite participar a entre uno y cuatro jugadores, poniendo énfasis en las estrategias y objetivos de equipo.",
+        "link": "left_four_dead.html"
+    },
+    {
+        "id": 18,
+        "titulo": "Super Mario Bros",
+        "imagen": "images/supermariobros.png",
+        "descripcion": "Este clásico de los videojuegos tiene unos controles muy sencillos que sin embargo ofrecen una gran jugabilidad. Usa la cruceta de dirección de tu teclado para mover a Mario o hacerle agacharse. Usa el botón Z para saltar pulsando una dirección en la cruceta para dirigir el salto. Con el botón X harás correr a Mario por el escenario, lo que te ayudará a escapar de enemigos y conseguir saltos mas largos. Por el escenario encontraras “power ups” que harán más poderoso a Mario. La seta roja hará que crezca. La flor le dará el poder de lanzar bolas de fuego. La seta verde le dará una vida extra. Usalos sabiamente y derrota a todos los enemigos que encuentres",
+        "link": "mario_bros.html"
+    },
+    {
+        "id": 19,
+        "titulo": "Mortal Kombat",
+        "imagen": "images/mortal_kombat.png",
+        "descripcion": "Lucha contra las fuerzas invasoras que amenazan tu línea de tiempo. Las invasiones son una campaña dinámica de un solo jugador con una variedad de desafíos distintos. Con la progresión construida y la mecánica de RPG, mezcladas con la increíble acción de lucha MK1, Invasions proporciona desafíos profundos y atractivos, y una tonelada de recompensas en el camino.",
+        "link": "mortal_kombat.html"
+    },
+    {
+        "id": 20,
+        "titulo": "NBA",
+        "imagen": "images/nba.png",
+        "descripcion": "Echa un vistazo a la serie NBA LIVE para jugar con los mejores de la liga año tras año. Confecciona tus propios equipos con estrellas NBA, conviértelos en ganadores y crea una dinastía. En NBA LIVE 18, el juego mejor valorado de la serie desde NBA LIVE 10 según Metacritic, podrás disfrutar de la posibilidad de crear a tu propio jugador y construir tu legado en las pistas más emblemáticas de streetball y, al mismo tiempo, comienzas una carrera con tu equipo NBA profesional favorito como Los Angeles Lakers o Boston Celtics. Además, machaca desde cualquier parte de la pista y rompe los tobillos de tus rivales con antiguos éxitos NBA como NBA JAM. Todos los juegos de temática baloncestística son para todos los públicos. Si te gustan los juegos de basket, Electronic Arts te ofrece los mejores. ",
+        "link": "NBA.html"
+    },
+    {
+        "id": 21,
+        "titulo": "Need for Speed: Most Wanted",
+        "imagen": "images/needforspeed.png",
+        "descripcion": "Coge un coche y salta a la lista de partidas sin pausa de eventos competitivos en el modo online. Influye en la lista de partidas votando con tu coche. Hazte un hueco en la línea de salida. Cruza la meta y date la vuelta para hacerle frente a los rivales.",
+        "link": "need_for_speed.html"
+    },
+    {
+        "id": 22,
+        "titulo": "Outlast",
+        "imagen": "images/outlast.png",
+        "descripcion": "En las remotas montañas de Colorado, los horrores esperan dentro del Asilo Masivo del Monte. Un hogar largamente abandonado para los enfermos mentales, recientemente reabierto por la rama de investigación y caridad de la transnacional Murkoff Corporation, el asilo ha estado operando en estricto secreto... hasta ahora.        Actuando en un consejo de una fuente anónima, el periodista independiente Miles Upshur irrúdese en las instalaciones, y lo que descubre camina una línea aterradora entre la ciencia y la religión, la naturaleza y algo completamente. Una vez dentro, su única esperanza de escapar reside en la terrible verdad en el corazón del Monte Massive.       La última es una verdadera experiencia de horror de supervivencia que pretende demostrar que los monstruos más aterradores de todos provienen de la mente humana.",
+        "link": "outlast.html"
+    },
+    {
+        "id": 23,
+        "titulo": "Pes 2010",
+        "imagen": "images/pes2010.png",
+        "descripcion": "Una de las principales mejoras de PES 2010 se centra en la jugabilidad, haciendo más difícil el ataque rival. Los jugadores contrarios podrán cubrir aquellos espacios que previamente aprovechamos para atacarles y darnos así menos posibilidades de hacer gol.",
+        "link": "pes_2010.html"
+    },
+    {
+        "id": 24,
+        "titulo": "Rainbow Six: Siege ",
+        "imagen": "images/rainbowsix.png",
+        "descripcion": ">Embárcate en un nuevo tipo de asalto usando un nivel de destrucción y unos dispositivos nunca vistos. Un referente en los FPS competitivos",
+        "link": "otro_juego.html"
+    },
+    {
+        "id": 25,
+        "titulo": "Rocket Leage",
+        "imagen": "images/rocketleage.png",
+        "descripcion": "Salta al campo en solitario o con amigos en los modos de juego en línea 1v1, 2v2 y 3v3, o disfruta de los modos extra como Rumble, Snow Day o Hoops. ¡Desbloquea objetos con el Rocket Pass, sube de rango competitivo, participa en torneos competitivos, supera desafíos, disfruta del progreso multiplataforma y mucho más! El campo te espera. ¡Haz el saque inicial!",
+        "link": "rocket_leage.html"
+    },
+    {
+        "id": 26,
+        "titulo": "Slenderman",
+        "imagen": "images/slenderman.png",
+        "descripcion": "Aquellos que estéis dispuestos a desafiar la oscuridad encontraréis una nueva historia en la que el padre de Charlie Matheson sufre su peor pesadilla. ¿Lograréis escapar sin perder la cordura?",
+        "link": "slenderman.html"
+    },
+    {
+        "id": 27,
+        "titulo": "THE CREW",
+        "imagen": "images/thecrew.png",
+        "descripcion": "Este año, The Crew  ha recibido el modo Race Creator, que permite a cualquier jugador crear sus propias carreras y eventos. Con MAD Vol. 2, los coches ya no serán el límite: ¡prepárate para incluir lanchas y aviones a tus desafíos personalizados por todo Estados Unidos!",
+        "link": "the_crew.html"
+    },
+    {
+        "id": 28,
+        "titulo": "Tron: Evolution",
+        "imagen": "images/tron.png",
+        "descripcion": "Tron: Evolution es un juego de acción envolvente ambientado en la Red digital. Explora las ciudades de Tron a tu antojo y enfréntate al aparentemente imparable ejército de un dictador como el poderoso Supervisor de sistema",
+        "link": "tron.html"
+    },
+    {
+        "id": 29,
+        "titulo": "Twisted Metal: Black",
+        "imagen": "images/twistedmetal.png",
+        "descripcion": "Dicen que la mente se altera y se retuerce para poder enfrentar los horrores de la vida…A veces, la mente sufre tantas alteraciones que termina dividida en dos.",
+        "link": "twister_metal.html"
+    },
+    {
+        "id": 30,
+        "titulo": "UFC 4",
+        "imagen": "images/ufc.png",
+        "descripcion": "Date una sacudida en el patio o rodéate de la mítica tradición del kumite; ambas son posibles en las nuevas ubicaciones de UFC 4. Además, combate en UFC Apex y Avenida de la Acción.",
+        "link": "UFC.html"
+    }
+]

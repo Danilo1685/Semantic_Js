@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>juegos free</title>
+<link rel="stylesheet" href="css/styles_center.css">
+<link rel="stylesheet" href="css/styles_grid.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+<link rel="stylesheet" href="css/styles_menu.css">
+<link rel="stylesheet" href="css/estilosHover.css"> 
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+<link rel="stylesheet" href="css/styles_mybiblioteca.css">
+
+</head>
+
+<body>
+<div id = "contenedora_central_mibiblioteca"> <!--Contenedora general-->
+
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<header id = "contenedor_mibiblioteca">
+    <div id ="image_biblioteca">
+        <img src="images/logo-Sinfondo.png">
+    </div>
+    <div id="nombre_pagina">
+        <h1>Game Up</h1>
+    </div>        
+    <!-- Menú lateral -->
+    <nav id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+        <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+        <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+        <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+        <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+        <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+        <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+        <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+        <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+        <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+       
+    </nav>
+
+    </header>
+
+    <div class="ui grid">
+      <div class="four column row">
+
+        <section id="trading_ofertas">
+          <div id="titulo_juegos_ofertas">
+            <H1>Acción</H1>
+          </div>
+          <div cid="container_ofertas">
+            <!-- carrusel -->
+            <div class="swiper trading-slider" id="carrusel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="image_ofertas" src="images/leftfourdead.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="left_for_dead.html">Left 4 dead</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/batlefield4.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="battlefield.html">Battlefield</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/counter.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="counter_strike.html">Counter Strike</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/rainbowsix.png"
+                      alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="rainbow_six.html">Rainbow Six Siege</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/doom.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="doom.html">Doom Dark Age</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/twistedmetal.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="twister_metal.html">Twisted Metal</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <!-- carrusel -->
+        </section>
+
+
+        <div class="left floated column"></div>
+
+        <!-- linea Linea de estio que separa las secciones -->
+        <div class="border-container">
+          <!-- Inicio y final de la linea-->
+          <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <!-- Logica de cambio de la forma-->
+            <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="juegos_free_line" />
+          </svg>
+        </div>
+        <!-- linea Linea de estio que separa las secciones -->
+        <section id="trading_ofertas">
+          <div id="titulo_juegos_ofertas">
+            <H1>Aventura</H1>
+          </div>
+          <div cid="container_ofertas">
+            <!-- carrusel -->
+            <div class="swiper trading-slider" id="carrusel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="image_ofertas" src="images/dark-souls.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="dark_soul.html">Dark Souls</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/eldenrin.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="elden_right.html">Elden Ring</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/amnesia.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="amnesia.html">Amnesia</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/deadspace.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="dead_spice.html">Dead Space</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/outlast.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="outlas.html">Outlast</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/finalfantasy.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="final_fantasy.html">Final Fantasy</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carrusel -->
+        </section>
+
+
+        <div class="left floated column"></div>
+
+        <!-- linea Linea de estio que separa las secciones -->
+        <div class="border-container">
+          <!-- Inicio y final de la linea-->
+          <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <!-- Logica de cambio de la forma-->
+            <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="juegos_free_line" />
+          </svg>
+        </div>
+        <!-- linea Linea de estio que separa las secciones -->
+
+        <section id="trading_ofertas">
+          <div id="titulo_juegos_ofertas">
+            <H1>Carreras</H1>
+          </div>
+          <div cid="container_ofertas">
+            <!-- carrusel -->
+            <div class="swiper trading-slider" id="carrusel">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="image_ofertas" src="images/forza.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="forza.html">Forza</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/granturismo.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="gran_turismo.html">Grand Turismo</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/needforspeed.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="need_for_speed.html">Need For Speed</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/thecrew.png"
+                      alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="the_crew.html">The Crew</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/rocketleage.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="rocket_league.html">Rocket League</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="swiper-slide trading-slide item-carousel">
+                  <label id="etiqueta" class="ui tag labels">
+                    <a class="ui label long leaf">Free!</a>
+                  </label>
+                  <figure id="card_oferta">
+                    <figcaption id="botones_oferta">
+                      <button id="boton_link_poster" class="ui inverted orange button">comprar</button>
+                      <button id="boton_link_poster" class="ui inverted orange button">agregar</button>
+                    </figcaption>
+                    <img class="trading-slide-img" id="img_ofertas" src="images/twistedmetal.png" alt="">
+                    <figcaption id="titulo_oferta">
+                      <a href="twister_metal.html">Twisted Metal</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carrusel -->
+        </section>
+        <div class="left floated column"></div>
+
+
+
+
+        <div class="border-container">
+          <svg class="svg-border_footer" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="juegos_free_line"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Fin del menú -->
+
+    <footer class="ui segment" id="footer_juegos_free">
+      <p>2024 @Game Up Derechos reservados</p>
+    </footer>
+
+
+    <!-- Scripts del menu-->
+
+    <script src="Js/scrptsMenu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/acordeon.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="Js/proximamente.js"></script>
+    <script src="Js/redireccion_prox-juegos.js"></script>
+    <script src="Js/scriptsSemantic.js"></script>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameUp</title>
+    <link rel="stylesheet" href="css/styles_grid.css">
+    <link rel="stylesheet" href="css/comunidad.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles_menu.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="contenedora_total"id=contenedora_comunidad>
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <header class="contenedor">
+            
+            <div class="image">
+                <img src="images/logo-Sinfondo.png">
+            </div>
+            <h1>Game Up</h1>
+            <!-- Menú lateral -->
+            <nav id="mySidebar">
+                <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+                <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+                <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+                <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+                <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+                <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+                <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+                <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+                <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+                <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+            </nav>
+        </header>
+
+        <div class="ui grid">
+            <div class="row">
+                <!-- Columna con id="a" -->
+                <div class="eight wide tablet eight wide computer column" id="a">
+                    <div class="ui list">
+                        <h3 class="ui header"id="amigos">Amigos 👥</h3>
+                        <div class="item">
+                            <img class="ui avatar image" src="/images/usuar/mujer (1).png">
+                            <div class="content">
+                                <a class="header">Rachel</a>
+                                <div class="description">Visto por última vez jugando <a><b>Battlefield 4</b></a> hace un momento.</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="/images/usuar/mujer (2).png">
+                            <div class="content">
+                                <a class="header">Lindsay</a>
+                                <div class="description">Visto por última vez jugando <a><b>Dark Souls</b></a> hace 10 horas.</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="/images/usuar/hombre (1).png">
+                            <div class="content">
+                                <a class="header">Matthew</a>
+                                <div class="description">Visto por última vez jugando <a><b>Rocket Leage</b></a> ayer.</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="/images/usuar/hombre (2).png">
+                            <div class="content">
+                                <a class="header">Jenny Hess</a>
+                                <div class="description">Visto por última vez jugando <a><b>The Crew</b></a> hace 3 dias.</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="/images/usuar/mujer.png">
+                            <div class="content">
+                                <a class="header">Veronika Ossi</a>
+                                <div class="description">No ha observado nada recientemente</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="ui hidden divider"></div>
+                    <div class="border-container">
+                        <!-- Inicio y final de la linea-->
+                        <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                            <!-- Logica de cambio de la forma-->
+                            <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="linea_comunidad" />
+                        </svg>
+                      </div>
+                    <h3 class="ui header" id="solicitudes">Solicitudes de Amistad</h3>
+                    <div class="ui cards">
+                        <div class="card">
+                            <div class="content">
+                                <img class="right floated mini ui image" src="/images/cod.png">
+                                <div class="header">Evis Drei </div>
+                                <div class="meta">Amigos de Veronika </div>
+                                <div class="description">Elliot solicito permiso para unirse a tu grupo </div>
+                            </div>
+                            <div class="extra content">
+                                <div class="ui two buttons">
+                                    <div class="ui basic green button">Aprobar</div>
+                                    <div class="ui basic red button">Declinar</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <img class="right floated mini ui image" src="/images/daniel.jpg">
+                                <div class="header">Jenny Hess </div>
+                                <div class="meta">Nuevo Miembro </div>
+                                <div class="description">Jenny quiere agregarte al grupo <b>mejores amigos</b> </div>
+                            </div>
+                            <div class="extra content">
+                                <div class="ui two buttons">
+                                    <div class="ui basic green button">Aprobar</div>
+                                    <div class="ui basic red button">Declinar</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna con id="b" -->
+                <div class="eight wide tablet eight wide computer column" id="b">
+                    <div class="ui left icon input">
+                        <input type="text" placeholder="Buscar usuarios...">
+                        <i class="users icon"></i>
+                    </div>
+                    <div class="border-container">
+                        <!-- Inicio y final de la linea-->
+                        <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                            <!-- Logica de cambio de la forma-->
+                            <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" id="linea_comunidad" />
+                        </svg>
+                      </div>
+                    <div class="ui cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="header">Elliot Fu</div>
+                                <img src="images/elliot100.png" alt="">
+                                <div class="description">Elliot Fu es un jugador de New York. </div>
+                            </div>
+                            <div class="ui bottom attached button"><i class="add icon"></i> Añadir amigo </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="header">Sofia Guebara</div>
+                                <img src="images/mujer100.png" alt="">
+                                <div class="description">Sofia Guebara es una jugadora que vive en Argentina </div>
+                            </div>
+                            <div class="ui bottom attached button"><i class="add icon"></i> Añadir amigo </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <p>2024 @Game Up Derechos reservados</p>
+          </footer>
+        <!-- Scripts -->
+        <script src="Js/scrptsMenu.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <!-- Footer -->
+      
+    </body>
+</html>

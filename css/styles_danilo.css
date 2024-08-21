@@ -1,0 +1,268 @@
+
+
+#contenedora_central {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    box-decoration-break: border-box;
+
+}
+body{
+    background-color: blue;
+}
+
+.para_ti{
+display: flex;
+flex-direction: column; 
+align-items: center;
+padding: 20px;
+
+border-radius: 10px;
+border-bottom: 4px solid blue;
+width: 100%; 
+}
+
+.top_10{
+display: flex;
+flex-direction: column; 
+align-items: center;
+padding: 20px;
+background-color: rgb(150, 141, 141);
+border-radius: 10px;
+width: 100%;     
+} 
+
+#footer {
+    display: flex;
+background-color: rgb(51, 51, 51);
+align-items:  center;
+}
+
+
+.flex-container {
+display: flex;
+justify-content: flex-end;
+}
+
+
+.container_acordeon{
+display: flex;
+justify-content: center;
+max-width: 70%; /* Ajuste de ancho máximo */
+padding: 1rem; /* Ajuste de padding */
+box-sizing: border-box;
+align-items: center;
+}
+:root {
+--background:linear-gradient(rgb(129, 129, 134), rgb(219, 213, 214)); 
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background: var(--background);
+display: grid;
+place-items: center;
+overflow-x: hidden;
+height: 100vh;
+}
+h1{
+display: flex;
+justify-content: center;
+}
+/* Mi biblioteca */
+.gallery {
+display: flex;
+gap: 1rem;
+max-width: 80rem;
+padding-top: 2%;
+}
+
+.card_biblioteca {
+position: relative;
+left: 0;
+width: 10rem;
+border-radius: 1.2rem;
+height: 15rem;
+overflow: hidden;
+background: var(--background);
+transition: 0.4s ease-in-out;
+box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+flex: 0.25;
+border: 4px solid blue;
+
+
+}
+
+.card_biblioteca img {
+position: relative;
+height: 20rem;
+object-fit: cover;
+transform: scale(1.1);
+}
+
+.card_biblioteca:hover {
+flex: 0.5;
+font-weight: bold;
+cursor: pointer;
+border-radius: 1rem;
+}
+
+.card_biblioteca .hover-text {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.8);
+color: white;
+text-align: center;
+padding: 1rem;
+font-family: 'Bold 700 Italic' !important;
+box-sizing: border-box;
+width: 100%; 
+}
+
+.card_biblioteca:hover .hover-text {
+display: block;
+}
+
+.card_biblioteca:nth-child(1) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(2) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(3) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(4) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(5) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(6) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(7) img {
+left: -6rem;
+}
+
+.card_biblioteca:nth-child(8) img {
+left: -6rem;
+}
+
+.card_biblioteca button {
+display: none; 
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+visibility: hidden;
+}
+
+.card_biblioteca:hover button {
+display: block; 
+visibility: visible; 
+}
+.item-carousel {
+    width: 10rem; /* Ajuste del ancho */
+    }
+    
+.trading-slide-img img {
+    margin-top: 10px; /* Ajuste del margen superior */
+    width: 100%; /* Ajuste del ancho */
+}
+/* Mi biblioteca */
+
+.div-container{ 
+width: fit-content;
+border: 10px solid red;
+background: transparent;
+
+
+padding: 0 ;
+background: transparent;
+}
+
+#trading h1{
+font-size: 1rem;
+justify-content: center;
+display: flex;
+border-bottom: 1px solid blue;
+width: 100vw; /* Ancho completo de la ventana */
+margin: 0; /* Eliminar márgenes */
+
+}
+
+#titulos_juegos h3{
+font-size: 1rem;
+justify-content: center;
+display: flex;
+border-bottom: 1px solid blue;
+width: 100vw; 
+margin: 0; 
+}
+.container {
+    width: 100%;
+    overflow: hidden; /* Oculta cualquier contenido desbordante */
+    
+    }
+
+
+
+#trading img {
+margin-top: 20px; /* Puedes ajustar este valor según lo necesites */
+}
+
+
+
+header {
+display: flex;
+width: 100%;
+}
+
+/* Asegúrate de que el contenedor del carrusel esté bien dimensionado */
+.container {
+width: 100%;
+overflow: hidden; /* Oculta cualquier contenido desbordante */
+}
+
+/* Asegúrate de que el carrusel no se desborde */
+.swiper-container {
+width: 100%;
+height: auto;
+}
+
+/* Si usas un ID para el carrusel, asegúrate de que se ajuste correctamente */
+
+
+
+
+.container {
+width: 100%;
+overflow: hidden; /* Oculta cualquier contenido desbordante */
+
+}
+
+
+.conteiner_galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid blue;
+
+}

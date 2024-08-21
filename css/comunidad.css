@@ -1,0 +1,27 @@
+.border-line {
+    fill: none;
+    /* Sin relleno */
+    stroke: yellow;
+    /* Color de la línea */
+    stroke-width: 0.5;
+    /* Ajusta el espesor de la línea */
+    stroke-linecap: round;
+    /* Extremos redondeados */
+}
+#solicitudes{
+    margin-top: -5%;
+}
+
+
+.footer{
+    height: 200px;
+    background-color: rgb(63, 61, 61);
+    border: 2px solid yellow;
+} 
+#contenedora_comunidad{
+    border: 2px solid yellow;
+}
+
+.contenedor{
+    border-bottom: 2px solid yellow;
+}
