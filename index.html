@@ -20,7 +20,14 @@
 <body>
 <div id = "contenedora_central_index"> <!--Contenedora general-->
 
-    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div id = 'span_carrito'>
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id ="image_carrito">
+          <a href="carrito.html">
+            <img src="images/carrito-sin-fondo1.png">
+          </a>
+        </div>
+      </div>
     <header id = "contenedor_index">
         <div id ="image_index">
             <img src="images/logo-Sinfondo.png">
@@ -35,7 +42,6 @@
             <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
             <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
             <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
-            <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
             <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
             <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
             <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
