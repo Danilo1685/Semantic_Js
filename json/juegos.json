@@ -198,7 +198,7 @@
     {
         "id": 29,
         "titulo": "Twisted Metal: Black",
-        "imagen": "images/twistedmetal.png",
+        "imagen": "images/twistedmetal",
         "descripcion": "Dicen que la mente se altera y se retuerce para poder enfrentar los horrores de la vida…A veces, la mente sufre tantas alteraciones que termina dividida en dos.",
         "link": "twister_metal.html"
     },
