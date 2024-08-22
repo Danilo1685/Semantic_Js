@@ -20,15 +20,18 @@
 <body>
   <div id = "contenedora_central_carrito"> <!--Contenedora general-->
 
-    <div id = 'span_carrito'>
-      <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
-      <div id ="image_carrito">
-        <a href="carrito.html">
-          <img src="images/carrito-sin-fondo.png">
-        </a>
+      <div id = 'span_carrito'>
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id ="image_carrito">
+          <a href="carrito.html">
+            <img src="images/carrito-sin-fondo1.png">
+          </a>
+        </div>
       </div>
-    </div>
-    <header id = "contenedor_ofertas">
+    <header id = "contenedor_carrito">
+      <div class="image">
+        <img src="images/logo-Sinfondo.png">
+      </div>
         <h1>Game Up</h1>
         <!-- Menú lateral -->
         <nav id="mySidebar">
@@ -37,7 +40,6 @@
             <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
             <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
             <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
-            <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
             <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
             <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
             <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
@@ -52,7 +54,7 @@
     
       <div class="border-container_carrito">
         <svg class="svg-border_carrito" viewBox="0 0 100 10" preserveAspectRatio="none">
-            <polyline points="0 1, 60 1, 65 8, 70 8, 100 8" class="border-line_carrito" />
+            <polyline points="0 1, 60 1, 65 8, 70 8, 100 8" class="border-line_carrito">
         </svg>
       </div>
       <!-- Grid de Semantic UI-->
@@ -68,12 +70,6 @@
         </article>
 
         <div id="carrito-container"></div>
-
-        <div class="border-container_carrito">
-          <svg class="svg-border_carrito" viewBox="0 0 100 10" preserveAspectRatio="none">
-              <polyline points="0 1, 55 1, 60 8, 65 8, 100 8" class="border-line_carrito" />
-          </svg>
-        </div>
 
       </section>
 

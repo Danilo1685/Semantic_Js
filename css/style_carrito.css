@@ -3,20 +3,21 @@
 #contenedora_central_carrito {
     background-color: rgb(150, 141, 141);
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-direction: column;
     background: var(--background);
     box-sizing: border-box; /* Incluye el borde en el tamaño total */
     border: 4px solid green;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
 #section_carrito {
     width: 100%;
-    overflow: hidden;
 }
 
 #container_carrito {
@@ -109,7 +110,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 #boton_comprar_carrito button{
@@ -145,6 +146,7 @@
     stroke-linecap: round; /* Extremos redondeados */
 }
 
+
 #footer_carrito {
     background-color: rgb(51, 51, 51);
     border: 4px solid green;
@@ -152,8 +154,7 @@
     justify-content: center;
     width: 100%;
     display: flex;
-    margin-bottom: -1rem;
-
+    margin: 0%;
 }
 
 
@@ -164,14 +165,25 @@
 
 #contenedor_carrito {
     width: 100%;
-    height: 20%;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom:4px solid green;
-    background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
+    border-bottom: 2px solid green;
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
+    /* Fixed the gradient background */
 }
 
+#image_carrito img {
+    height: 20vh;
 
+    max-width: 100%;
+    /* Otros estilos necesarios */
+
+}
+
+#contenedor_carrito h1 {
+    font-size: 8vh;
+}
 
 /* Fin Carrito */

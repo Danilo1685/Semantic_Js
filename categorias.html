@@ -14,7 +14,14 @@
 
 <body>
   <div class="contenedora_total"> <!--Contenedora general-->
-    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <div id = 'span_carrito'>
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id ="image_carrito">
+        <a href="carrito.html">
+          <img src="images/carrito-sin-fondo1.png">
+        </a>
+      </div>
+    </div>
     <header class="contenedor">
       <div class="image">
         <img src="images/logo-Sinfondo.png">
@@ -537,6 +544,11 @@
       </div>
     </div>
 
+
+    <footer class="footer">
+      <p>2024 @Game Up Derechos reservados</p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
     <script src="Js/scrptsMenu.js"></script> <!-- Scripts del menú -->
@@ -544,8 +556,5 @@
     <script src="Js/redireccion_categ.js"></script>
   </div>
 </body>
-<footer class="footer">
-  <p>2024 @Game Up Derechos reservados</p>
-</footer>
 
 </html>
