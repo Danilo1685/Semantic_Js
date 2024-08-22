@@ -464,4 +464,19 @@ figcaption a {
 }
 
 
+#span_carrito {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#image_carrito{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#image_carrito img{
+    height: 20px;
+}
 
