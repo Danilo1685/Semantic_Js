@@ -131,6 +131,7 @@
     object-fit: cover;
     /* Ajusta la imagen para cubrir completamente */
     background-color: black;
+    height: 148px;
 }
 
 /* Estilo para la tarjeta al pasar el ratón por encima */
@@ -230,6 +231,7 @@
     object-fit: cover;
     /* Ajusta la imagen para cubrir completamente */
     background-color: black;
+    height: 148px;
 }
 
 /* Estilo para la tarjeta al pasar el ratón por encima */
@@ -305,3 +307,4 @@
     visibility: hidden;
     height: 0px;
 }
+
