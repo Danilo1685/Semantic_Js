@@ -1,27 +1,30 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('juegos.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            const articles = document.querySelectorAll('#trading_carrito');
+    const juegosEnCarrito = JSON.parse(localStorage.getItem('juegosEnOferta')) || [];
 
-            articles.forEach(article => {
-                const id = article.getAttribute('data-id');
-                const juego = data.find(item => item.id == id);
+    const carritoSection = document.querySelector('#carrito_section'); // Ajusta el selector según tu HTML
 
-                if (juego) {
-                    article.querySelector('#img_carrito').src = juego.imagen;
-                    article.querySelector('h1').textContent = juego.titulo;
-                    article.querySelector('a').href = juego.link;
-                    article.querySelector('#texto_carrito h2').textContent = juego.descripcion;
-                }
-            });
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-        });
+    juegosEnCarrito.forEach(juego => {
+        const article = document.createElement('article');
+        article.className = 'carrito_juego';
+        article.dataset.id = juego.id;
+
+        article.innerHTML = `
+            <div id="container_carrito">
+                <figure id='poster_carrito'>
+                    <img id="img_carrito" src="${juego.imagen}" alt="">
+                    <figcaption id="titulo_carrito">
+                        <a href="${juego.link}"><h1>${juego.titulo}</h1></a>
+                        <div id='texto_carrito'><h2>${juego.descripcion}</h2></div>
+                        <div id='boton_comprar_carrito'>
+                            <button class="ui green button"><h3>Comprar</h3></button>
+                            <button class="ui blue button"><h3>Favoritos</h3></button>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        `;
+
+        carritoSection.appendChild(article);
+    });
 });
+

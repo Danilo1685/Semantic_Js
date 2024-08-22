@@ -198,7 +198,7 @@
     {
         "id": 29,
         "titulo": "Twisted Metal: Black",
-        "imagen": "images/twistedmetal.png",
+        "imagen": "images/twistedmetal",
         "descripcion": "Dicen que la mente se altera y se retuerce para poder enfrentar los horrores de la vida…A veces, la mente sufre tantas alteraciones que termina dividida en dos.",
         "link": "twister_metal.html"
     },
@@ -208,5 +208,12 @@
         "imagen": "images/ufc.png",
         "descripcion": "Date una sacudida en el patio o rodéate de la mítica tradición del kumite; ambas son posibles en las nuevas ubicaciones de UFC 4. Además, combate en UFC Apex y Avenida de la Acción.",
         "link": "UFC.html"
+    },
+    {
+        "id": 31,
+        "titulo": "Fallout 4",
+        "imagen": "images/fallout.png",
+        "descripcion": "El jugador es el Único Superviviente del Refugio 111, quien emerge 210 años después de la Gran Guerra. Antes a eso, hay un breve momento de gameplay durante la era de la pre-guerra, donde el jugador vive con su esposa e hijo.",
+        "link": "fallout.html"
     }
 ]
