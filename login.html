@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio Sesion</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form id="loginForm">
+        <div class="title">
+          <h1>Inicio Sesion</h1>
+        </div>
+        <div class="input-box">
+          <label for="usuarioInput">Nombre</label>
+          <input
+            id="usuarioInput"
+            name="text"
+            type="text"
+            placeholder="Nombre/Usuario"
+            required
+          />
+          <br />
+          <label for="contrasenaInput">Contraseña</label>
+          <input
+            id="contrasenaInput"
+            name="password"
+            type="password"
+            placeholder="Contraseña"
+            required
+          />
+          <br />
+          <input type="submit" class="Login" value="Inicie Sesion" />
+          <br />
+          <p class="link-text">Olvidaste Tu Contraseña? <a href="#">Click Aqui</a></p>
+          <p class="link-text">
+            No Tienes Una Cuenta?
+            <a href="#">Click Aqui</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="Js/locallogin.js"></script>
+  </body>
+</html>

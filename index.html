@@ -23,7 +23,10 @@
     <div id = 'span_carrito'>
         <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
         <div id ="image_carrito">
-          <a href="carrito.html">
+            <button class="ui black button" id="login">
+                Iniciar Sesion
+                </button>
+            <a href="carrito.html">
             <img src="images/carrito-sin-fondo1.png">
           </a>
         </div>
@@ -54,7 +57,11 @@
         <!-- Fin del menu lateral-->
     </header>
 
+<div id="popup-overlay" class="popup-overlay">
+      <div id="popup" class="popup col-3">
 
+      </div>
+    </div>
 
     <div class="ui grid">
         <div class="border-container_index">
@@ -332,6 +339,10 @@
 
 </div>           
 <!-- Scripts del menu-->
+
+    <script src="Js/locallogin.js"></script>
+    <script src="Js/redirect_login.js"></script>
+    <script src="Js/loginpop.js"></script>
     <script src="Js/redireccion_index.js"></script>
     <script src="Js/index.js"></script>
     <script src="Js/scrptsMenu.js"></script> 
